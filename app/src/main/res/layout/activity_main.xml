@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context="com.example.david.selectcard.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/activity_main___card_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/cardback2"
+        />
+
+    <TextView
+        android:id="@+id/activity_main___cards_left_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#ffc000"
+        android:background="#5a000000"
+        />
+
+
+
+</RelativeLayout>
